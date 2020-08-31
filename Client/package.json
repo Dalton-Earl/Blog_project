@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Blog front end",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-sripts test",
+    "stert": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "Dalton Earl",
+  "license": "ISC",
+  "proxy": "http://localhost:3002",
+  "dependencies": {
+    "auth0-js": "^9.13.4",
+    "axios": "^0.19.2",
+    "history": "^5.0.0",
+    "loadash": "^1.0.0",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hooks-paginator": "^0.4.4",
+    "react-js-pagination": "^3.0.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3"
+  }
+}
